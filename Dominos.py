@@ -49,7 +49,7 @@ driver.find_element_by_id("Email").send_keys("[EMAIL]")                  # <--- 
 driver.find_element_by_id("Callback_Phone").send_keys("[PHONE]")         # <--- Phone
 driver.find_element_by_id("Email_Opt_In").click()                        # Opt in is preselected, click again to Opt out
 
-# Pay with cash upon deliver
+# Pay with cash upon delivery
 driver.find_element(By.XPATH, ".//*[@id='orderPaymentPage']/form/div[5]/div/div[2]/div/div[3]/label/input").click()
 
 # Place order
