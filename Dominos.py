@@ -26,18 +26,18 @@ for option in State.find_elements_by_tag_name("option"):
 
 # Search for locations
 driver.find_element(By.XPATH, ".//*[@id='locationsSearchPage']/form/div/div[2]/div/button").click()
-driver.implicitly_wait(5) #Allow page loading
+driver.implicitly_wait(5) # Allow page loading
 
 # Click the first option (closest delivery)
 driver.find_element(By.XPATH, ".//*[@id='locationsResultsPage']/div[1]/div[2]/div[4]/div[2]/a").click()
-driver.implicitly_wait(5) #Allow page loading
+driver.implicitly_wait(5) # Allow page loading
 
 # Click Popular Items
 driver.find_element(By.XPATH, ".//*[@id='entreesPage']/div[1]/div[3]/a/div[2]/h2").click()
 
 # Click Large Cheese Pizza
 driver.find_element(By.XPATH, ".//*[@id='entreesPage']/div[1]/div[3]/div/div/div[2]/div[1]/ul/li[1]/a/h5").click()
-driver.implicitly_wait(5) #Allow page loading
+driver.implicitly_wait(5) # Allow page loading
 
 # Straight to checkout
 driver.get("https://www.dominos.com/en/pages/order/payment.jsp")
