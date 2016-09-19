@@ -53,5 +53,6 @@ driver.find_element_by_id("Email_Opt_In").click()                        # Opt i
 driver.find_element(By.XPATH, ".//*[@id='orderPaymentPage']/form/div[5]/div/div[2]/div/div[3]/label/input").click()
 
 # Place order
-driver.find_element(By.XPATH, ".//*[@id='orderPaymentPage']/form/div[6]/div[4]/button").click()
-
+# driver.find_element(By.XPATH, ".//*[@id='orderPaymentPage']/form/div[6]/div[4]/button").click()
+# Last step is commented for your safety ;)
+# Only uncomment after you've tested the rest of the program first
