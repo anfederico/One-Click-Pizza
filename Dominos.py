@@ -42,12 +42,12 @@ driver.implicitly_wait(5) #Allow page loading
 # Straight to checkout
 driver.get("https://www.dominos.com/en/pages/order/payment.jsp")
 
-# Enter contact information                                             # Fill information out prior to use
-driver.find_element_by_id("First_Name").send_keys("[FIRST NAME]")       # <--- First Name
-driver.find_element_by_id("Last_Name").send_keys("[LAST NAME]")         # <--- Last Name 
-driver.find_element_by_id("Email").send_keys("[EMAIL]")                 # <--- Email
-driver.find_element_by_id("Callback_Phone").send_keys("[PHONE]")        # <--- Phone
-driver.find_element_by_id("Email_Opt_In").click()                       # Opt in is preselected, click again to Opt out
+# Enter contact information                                              # Fill information out prior to use
+driver.find_element_by_id("First_Name").send_keys("[FIRST NAME]")        # <--- First Name
+driver.find_element_by_id("Last_Name").send_keys("[LAST NAME]")          # <--- Last Name 
+driver.find_element_by_id("Email").send_keys("[EMAIL]")                  # <--- Email
+driver.find_element_by_id("Callback_Phone").send_keys("[PHONE]")         # <--- Phone
+driver.find_element_by_id("Email_Opt_In").click()                        # Opt in is preselected, click again to Opt out
 
 # Pay with cash upon deliver
 driver.find_element(By.XPATH, ".//*[@id='orderPaymentPage']/form/div[5]/div/div[2]/div/div[3]/label/input").click()
