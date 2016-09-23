@@ -13,7 +13,7 @@
 9. Place order
 
 ### Notes
-- <i> Make sure you fill in your personal information within the program otherwise it will not run</i>
-- <i> You may need to modify some steps of the program such as address type or payment option</i>
-- <i> XPaths may break in the future however can easily be reidentified by using Firebug/Firepath (firefox plugins)</i>
-- <i> This is mostly for personal use and proof of concept, you can apply it to automating any purchase from any website</i>
+- <i>Make sure you fill in your personal information within the program otherwise it will not run</i>
+- <i>You may need to modify some steps of the program such as address type or payment option</i>
+- <i>XPaths may break in the future however can easily be reidentified by using Firebug/Firepath (firefox plugins)</i>
+- <i>This is mostly for personal use and proof of concept, you can apply it to automating any purchase from any website</i>
