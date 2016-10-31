@@ -1,4 +1,4 @@
-# One Click Pizza <img src="https://github.com/anfederico/One-Click-Pizza/blob/master/Pizza.png" width="50"/> 
+#One Click Pizza
 <i>Headless web browser scripted to order your pizza in a single click</i>
 
 ### What this program will do
